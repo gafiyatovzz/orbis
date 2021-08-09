@@ -26,3 +26,9 @@
 .banner__content_bottom_col-l .button {
     margin-top: 61px;
 }
+
+@media (max-width: 768px) {
+    .banner__content_bottom_col-l .button {
+        margin-top: 20px;
+    }
+}

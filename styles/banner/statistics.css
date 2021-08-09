@@ -21,3 +21,14 @@
     font-weight: bold;
     margin: 0 !important;
 }
+@media (max-width: 768px) {
+    .stat {
+        flex-direction: column-reverse;
+    }
+
+    .statistic {
+        margin: 0 0 30px;
+        flex: 0 0 100%;
+    }
+    
+}

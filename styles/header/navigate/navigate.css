@@ -7,3 +7,14 @@
 .navigate_link  {
     margin: 0 16px;
 }
+
+@media (max-width: 768px) {
+    .navigate {
+        flex-wrap: wrap;
+
+    }
+
+    .navigate_link {
+        margin-bottom: 30px;
+    }
+}
