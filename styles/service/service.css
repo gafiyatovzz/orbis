@@ -48,3 +48,9 @@
 .service_item_ph {
     margin: 0;
 }
+
+@media (max-width: 1100px) {
+    .service_item, .service_item:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+}
