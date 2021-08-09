@@ -72,3 +72,10 @@
         margin: 20px 0;
     }
 }
+
+@media (max-width: 768px) {
+    .service_item_right {
+        padding: 20px 0 !important;
+    }
+ 
+}
