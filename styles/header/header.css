@@ -1,0 +1,20 @@
+@import "./navigate/navigate.css";
+
+.header,
+.navigate a {
+  color: white;
+}
+
+.header {
+  height: 75px;
+  width: 100%;
+  
+  margin-top: 80px;
+
+  position: absolute;
+}
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

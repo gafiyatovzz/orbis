@@ -1,0 +1,28 @@
+.button {
+    width: 100%;
+    max-width: 250px;
+    height: 74px;
+
+    display: flex;align-items: center;justify-content: center;
+
+    border: 1px solid white;
+
+    color: white;
+
+    text-transform: uppercase;
+    font-size: var(--font-size-m);
+
+    background: rgba(196, 196, 196, 0.5);
+    backdrop-filter: blur(4px);
+
+    cursor: pointer;
+    transition: all .1s ease;
+}
+
+.button:hover {
+    border-width: 2px;
+}
+
+.banner__content_bottom_col-l .button {
+    margin-top: 61px;
+}

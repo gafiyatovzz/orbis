@@ -1,0 +1,21 @@
+.send_button {
+    background: var(--color-theme-1);
+    color: white;
+    width: 200px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.send_button:hover {
+    background: var(--color-theme-1) 80%;
+
+}

@@ -1,0 +1,16 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > a {
+    display: flex;
+    width: 50%;
+    border-right: 1px solid white;
+    justify-content: flex-start;
+}
+
+.logo_description  {
+    padding-left: 50px;
+}

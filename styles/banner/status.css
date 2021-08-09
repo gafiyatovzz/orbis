@@ -1,0 +1,14 @@
+.text-status {
+    font-size: var(--font-size-m);
+    display: flex;
+    color: white;
+}
+
+.text-status::before {
+    content: '';
+    width: 21px;
+    height: 19px;
+    background-color: var(--color-theme-1);
+    border-radius: 100px;
+    margin-right: 20px;
+}

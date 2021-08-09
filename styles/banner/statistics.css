@@ -1,0 +1,23 @@
+.stat {
+    display: flex;
+}
+
+.statistic {
+ margin: 0 0 50px;
+ max-width: 33%;
+ width: 100%;
+}
+
+.statistic_text {
+    color: var(--main-color);
+    font-size: var(--font-size-m);
+    margin: 0 !important;
+    color: white;
+}
+
+.statistic_num {
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+    margin: 0 !important;
+}

@@ -1,0 +1,9 @@
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigate_link  {
+    margin: 0 16px;
+}

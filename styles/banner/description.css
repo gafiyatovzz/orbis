@@ -1,0 +1,7 @@
+.banner__content_bottom .description {
+  font-size: var(--font-size-l);
+  line-height: 37px;
+
+  letter-spacing: -0.03em;
+  color: white;
+}
