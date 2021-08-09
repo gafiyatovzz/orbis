@@ -16,3 +16,13 @@
     font-size: 37px;
     margin: 0;
 }
+
+@media (max-width: 768px) {
+    .goal h2 {
+        font-size: 32px;
+    }
+
+    .goal p {
+        font-size: 22px;
+    }
+}

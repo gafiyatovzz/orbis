@@ -23,12 +23,13 @@
 }
 @media (max-width: 768px) {
     .stat {
-        flex-direction: column-reverse;
+        flex-wrap: wrap;
     }
 
     .statistic {
         margin: 0 0 30px;
-        flex: 0 0 100%;
+        flex: 0 0 45%;
+        max-width: 45%;
     }
     
 }
